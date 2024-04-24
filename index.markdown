@@ -17,20 +17,22 @@ To further capture features that shape emotional valence, we propose a novel **f
 
 <div align="center">
   <img src="figures/representation.png" width=500 alt="">
-  <figcaption><strong>Fig.1</strong> Illustration of (a) REMI and (b) the proposed functional representation, differing in note pitch and chord name events.</figcaption>
+  <figcaption><strong>Fig.2</strong> Illustration of (a) REMI and (b) the proposed functional representation, differing in note pitch and chord name events.</figcaption>
 </div>
 
 This new method takes **musical keys** into account, recognizing their significant role in shaping valence perception through major-minor tonality. It encodes both melody and chords with Roman numerals relative to musical keys, to consider the interactions among notes, chords and tonalities. 
 
 <div align="center">
-  <img src="figures/switch.png" width=400 alt="">
-  <figcaption><strong>Fig.3</strong> The conversion between letters and Roman numerals in the cases of C major and c minor scales. Solid arrows denote strict one-to-one conversions, and dotted arrows denote optional one-to-either conversions.</figcaption>
+  <img src="figures/key_distribution.png" width=500 alt="">
+  <figcaption><strong>Fig.3</strong> Key histogram of high/low valence clips from the emotion-labeled piano music dataset EMOPIA</figcaption>
 </div>
 
+
 <div align="center">
-  <img src="figures/key_distribution.png" width=500 alt="">
-  <figcaption><strong>Fig.2</strong> Key histogram of high/low valence clips from the emotion-labeled piano music dataset EMOPIA</figcaption>
+  <img src="figures/switch.png" width=400 alt="">
+  <figcaption><strong>Fig.4</strong> The conversion between letters and Roman numerals in the cases of C major and c minor scales. Solid arrows denote strict one-to-one conversions, and dotted arrows denote optional one-to-either conversions.</figcaption>
 </div>
+
 
 Experiments demonstrate the effectiveness of our framework and representation on emotion modeling. Additionally, our method enables new capabilities to control the arousal levels of generation under the same lead sheet, leading to more flexiable emotion controls.
 
