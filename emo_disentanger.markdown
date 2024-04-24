@@ -2,7 +2,7 @@
 layout: default
 title: EMO_Disentanger
 description: Emotion-driven Piano Music Generation via Two-stage Disentanglement and Functional Representation
-permalink: /
+permalink: /demo/
 ---
 
 ## Introduction
