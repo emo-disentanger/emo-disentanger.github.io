@@ -328,7 +328,7 @@ table.audio-table td, table.audio-table th {
 
 table.audio-table audio {
     height: 2rem;
-    max-width: 9rem; }
+    max-width: 15rem; }
 
 @media screen and (min-width: 200rem) {
   table.audio-table audio {
@@ -343,7 +343,7 @@ table.audio-table audio {
         overflow-x: visible; }
   table.audio-table .metric-col {
         width: 7em; } }
-@media screen and (max-width: 180rem) {
+@media screen and (max-width: 106rem) {
   table.audio-table {
         margin-left: auto;
         margin-right: auto;
