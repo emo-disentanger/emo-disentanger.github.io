@@ -36,9 +36,114 @@ Experiments demonstrate the effectiveness of our framework and representation on
 
 # Generation Samples
 
-A selection of generation samples are shown below. Models are denoted as **<representation(stage)>**. For example, REMI(one) denotes the one-stage generation model with REMI representation as the baseline, and REMI(two) denotes the two-stage generation as one variant. The first section (**4Q generations**) shows generated examples for each Quadrant, and the second section (**Same Lead Sheet, Different Arousal**) presents generations of different arousal levels under the same lead sheet.
+We show some generation samples below from three models:
+
+* **REMI(one)**: one-stage generation model with REMI representation, baseline
+* **REMI(two)**: two-stage generation model with REMI representation, one variant of our proposed framework
+* **Functional(two)**: two-stage generation model with functional representation, our main proposal
+
+## Same Lead Sheet, Different Arousal Performance
+
+This section shows generated piano performance of different arousal levels under the same lead sheet, a new emotion-based music generation application with our two-stage framework. 
+
+### Positive pieces
+
+<table class="audio-table">
+  <thead>
+    <tr class="header">
+    <th></th>
+    <th>Lead Sheet</th>
+    <th>High Arousal Performance</th>
+    <th>Low Arousal Performance</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th rowspan="3">REMI(two) - Variant</th>
+      <td><audio controls=""><source src="assets/demos/Arousal/REMI(two)/positive_0.wav" type="audio/mpeg" /></audio></td>
+      <td><audio controls=""><source src="assets/demos/Arousal/REMI(two)/positive_HA_0.wav" type="audio/mpeg" /></audio></td>
+      <td><audio controls=""><source src="assets/demos/Arousal/REMI(two)/positive_LA_0.wav" type="audio/mpeg" /></audio></td>
+    </tr>
+    <tr>
+      <td><audio controls=""><source src="assets/demos/Arousal/REMI(two)/positive_1.wav" type="audio/mpeg" /></audio></td>
+      <td><audio controls=""><source src="assets/demos/Arousal/REMI(two)/positive_HA_1.wav" type="audio/mpeg" /></audio></td>
+      <td><audio controls=""><source src="assets/demos/Arousal/REMI(two)/positive_LA_1.wav" type="audio/mpeg" /></audio></td>
+    </tr>
+    <tr>
+      <td><audio controls=""><source src="assets/demos/Arousal/REMI(two)/positive_2.wav" type="audio/mpeg" /></audio></td>
+      <td><audio controls=""><source src="assets/demos/Arousal/REMI(two)/positive_HA_2.wav" type="audio/mpeg" /></audio></td>
+      <td><audio controls=""><source src="assets/demos/Arousal/REMI(two)/positive_LA_2.wav" type="audio/mpeg" /></audio></td>
+    </tr>
+    <tr>
+      <th rowspan="3">Functional(two) - Ours</th>
+      <td><audio controls=""><source src="assets/demos/Arousal/functional(two)/positive_0.wav" type="audio/mpeg" /></audio></td>
+      <td><audio controls=""><source src="assets/demos/Arousal/functional(two)/positive_HA_0.wav" type="audio/mpeg" /></audio></td>
+      <td><audio controls=""><source src="assets/demos/Arousal/functional(two)/positive_LA_0.wav" type="audio/mpeg" /></audio></td>
+    </tr>
+    <tr>
+      <td><audio controls=""><source src="assets/demos/Arousal/functional(two)/positive_1.wav" type="audio/mpeg" /></audio></td>
+      <td><audio controls=""><source src="assets/demos/Arousal/functional(two)/positive_HA_1.wav" type="audio/mpeg" /></audio></td>
+      <td><audio controls=""><source src="assets/demos/Arousal/functional(two)/positive_LA_1.wav" type="audio/mpeg" /></audio></td>
+    </tr>
+    <tr>
+      <td><audio controls=""><source src="assets/demos/Arousal/functional(two)/positive_2.wav" type="audio/mpeg" /></audio></td>
+      <td><audio controls=""><source src="assets/demos/Arousal/functional(two)/positive_HA_2.wav" type="audio/mpeg" /></audio></td>
+      <td><audio controls=""><source src="assets/demos/Arousal/functional(two)/positive_LA_2.wav" type="audio/mpeg" /></audio></td>
+    </tr>
+  </tbody>
+</table>
+
+
+### Negative pieces
+
+<table class="audio-table">
+  <thead>
+    <tr class="header">
+    <th></th>
+    <th>Lead Sheet</th>
+    <th>High Arousal Performance</th>
+    <th>Low Arousal Performance</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th rowspan="3">REMI(two) - Variant</th>
+      <td><audio controls=""><source src="assets/demos/Arousal/REMI(two)/negative_0.wav" type="audio/mpeg" /></audio></td>
+      <td><audio controls=""><source src="assets/demos/Arousal/REMI(two)/negative_HA_0.wav" type="audio/mpeg" /></audio></td>
+      <td><audio controls=""><source src="assets/demos/Arousal/REMI(two)/negative_LA_0.wav" type="audio/mpeg" /></audio></td>
+    </tr>
+    <tr>
+      <td><audio controls=""><source src="assets/demos/Arousal/REMI(two)/negative_1.wav" type="audio/mpeg" /></audio></td>
+      <td><audio controls=""><source src="assets/demos/Arousal/REMI(two)/negative_HA_1.wav" type="audio/mpeg" /></audio></td>
+      <td><audio controls=""><source src="assets/demos/Arousal/REMI(two)/negative_LA_1.wav" type="audio/mpeg" /></audio></td>
+    </tr>
+    <tr>
+      <td><audio controls=""><source src="assets/demos/Arousal/REMI(two)/negative_2.wav" type="audio/mpeg" /></audio></td>
+      <td><audio controls=""><source src="assets/demos/Arousal/REMI(two)/negative_HA_2.wav" type="audio/mpeg" /></audio></td>
+      <td><audio controls=""><source src="assets/demos/Arousal/REMI(two)/negative_LA_2.wav" type="audio/mpeg" /></audio></td>
+    </tr>
+    <tr>
+      <th rowspan="3">Functional(two) - Ours</th>
+      <td><audio controls=""><source src="assets/demos/Arousal/functional(two)/negative_0.wav" type="audio/mpeg" /></audio></td>
+      <td><audio controls=""><source src="assets/demos/Arousal/functional(two)/negative_HA_0.wav" type="audio/mpeg" /></audio></td>
+      <td><audio controls=""><source src="assets/demos/Arousal/functional(two)/negative_LA_0.wav" type="audio/mpeg" /></audio></td>
+    </tr>
+    <tr>
+      <td><audio controls=""><source src="assets/demos/Arousal/functional(two)/negative_1.wav" type="audio/mpeg" /></audio></td>
+      <td><audio controls=""><source src="assets/demos/Arousal/functional(two)/negative_HA_1.wav" type="audio/mpeg" /></audio></td>
+      <td><audio controls=""><source src="assets/demos/Arousal/functional(two)/negative_LA_1.wav" type="audio/mpeg" /></audio></td>
+    </tr>
+    <tr>
+      <td><audio controls=""><source src="assets/demos/Arousal/functional(two)/negative_2.wav" type="audio/mpeg" /></audio></td>
+      <td><audio controls=""><source src="assets/demos/Arousal/functional(two)/negative_HA_2.wav" type="audio/mpeg" /></audio></td>
+      <td><audio controls=""><source src="assets/demos/Arousal/functional(two)/negative_LA_2.wav" type="audio/mpeg" /></audio></td>
+    </tr>
+  </tbody>
+</table>
 
 ## 4Q generations
+
+This section shows generated examples for each Quadrant. REMI(one) was found to have poor performance in valence modeling based on our user study.
 
 ### Q1 (High Valence, High Arousal)
 
@@ -51,7 +156,7 @@ A selection of generation samples are shown below. Models are denoted as **<repr
       <td><audio controls=""><source src="assets/demos/4Q/REMI(one)/Q1_2.wav" type="audio/mpeg" /></audio></td>
     </tr>
     <tr>
-      <td>REMI(two) - Variant</td>
+      <td>REMI(two) - Ours</td>
       <td><audio controls=""><source src="assets/demos/4Q/REMI(two)/Q1_0.wav" type="audio/mpeg" /></audio></td>
       <td><audio controls=""><source src="assets/demos/4Q/REMI(two)/Q1_1.wav" type="audio/mpeg" /></audio></td>
       <td><audio controls=""><source src="assets/demos/4Q/REMI(two)/Q1_2.wav" type="audio/mpeg" /></audio></td>
@@ -59,7 +164,7 @@ A selection of generation samples are shown below. Models are denoted as **<repr
   </tbody>
   <tfoot>
     <tr>
-      <td>Functional(two) - Ours</td>
+      <td>Functional(two) - Ours (main proposal)</td>
       <td><audio controls=""><source src="assets/demos/4Q/functional(two)/Q1_0.wav" type="audio/mpeg" /></audio></td>
       <td><audio controls=""><source src="assets/demos/4Q/functional(two)/Q1_1.wav" type="audio/mpeg" /></audio></td>
       <td><audio controls=""><source src="assets/demos/4Q/functional(two)/Q1_2.wav" type="audio/mpeg" /></audio></td>
@@ -146,89 +251,6 @@ A selection of generation samples are shown below. Models are denoted as **<repr
       <td><audio controls=""><source src="assets/demos/4Q/functional(two)/Q4_2.wav" type="audio/mpeg" /></audio></td>
     </tr>
   </tfoot>
-</table>
-
-## Same Lead Sheet, Different Arousal
-
-### Positive lead sheet
-
-<table class="audio-table">
-  <thead>
-    <tr class="header">
-    <th></th>
-    <th>High Arousal</th>
-    <th>Low Arousal</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th rowspan="3">REMI(two) - Variant</th>
-      <td><audio controls=""><source src="assets/demos/Arousal/REMI(two)/positive_HA_0.wav" type="audio/mpeg" /></audio></td>
-      <td><audio controls=""><source src="assets/demos/Arousal/REMI(two)/positive_LA_0.wav" type="audio/mpeg" /></audio></td>
-    </tr>
-    <tr>
-      <td><audio controls=""><source src="assets/demos/Arousal/REMI(two)/positive_HA_1.wav" type="audio/mpeg" /></audio></td>
-      <td><audio controls=""><source src="assets/demos/Arousal/REMI(two)/positive_LA_1.wav" type="audio/mpeg" /></audio></td>
-    </tr>
-    <tr>
-      <td><audio controls=""><source src="assets/demos/Arousal/REMI(two)/positive_HA_2.wav" type="audio/mpeg" /></audio></td>
-      <td><audio controls=""><source src="assets/demos/Arousal/REMI(two)/positive_LA_2.wav" type="audio/mpeg" /></audio></td>
-    </tr>
-    <tr>
-      <th rowspan="3">Functional(two) - Ours</th>
-      <td><audio controls=""><source src="assets/demos/Arousal/functional(two)/positive_HA_0.wav" type="audio/mpeg" /></audio></td>
-      <td><audio controls=""><source src="assets/demos/Arousal/functional(two)/positive_LA_0.wav" type="audio/mpeg" /></audio></td>
-    </tr>
-    <tr>
-      <td><audio controls=""><source src="assets/demos/Arousal/functional(two)/positive_HA_1.wav" type="audio/mpeg" /></audio></td>
-      <td><audio controls=""><source src="assets/demos/Arousal/functional(two)/positive_LA_1.wav" type="audio/mpeg" /></audio></td>
-    </tr>
-    <tr>
-      <td><audio controls=""><source src="assets/demos/Arousal/functional(two)/positive_HA_2.wav" type="audio/mpeg" /></audio></td>
-      <td><audio controls=""><source src="assets/demos/Arousal/functional(two)/positive_LA_2.wav" type="audio/mpeg" /></audio></td>
-    </tr>
-  </tbody>
-</table>
-
-
-### Negative lead sheet
-
-<table class="audio-table">
-  <thead>
-    <tr class="header">
-    <th></th>
-    <th>High Arousal</th>
-    <th>Low Arousal</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th rowspan="3">REMI(two) - Variant</th>
-      <td><audio controls=""><source src="assets/demos/Arousal/REMI(two)/negative_HA_0.wav" type="audio/mpeg" /></audio></td>
-      <td><audio controls=""><source src="assets/demos/Arousal/REMI(two)/negative_LA_0.wav" type="audio/mpeg" /></audio></td>
-    </tr>
-    <tr>
-      <td><audio controls=""><source src="assets/demos/Arousal/REMI(two)/negative_HA_1.wav" type="audio/mpeg" /></audio></td>
-      <td><audio controls=""><source src="assets/demos/Arousal/REMI(two)/negative_LA_1.wav" type="audio/mpeg" /></audio></td>
-    </tr>
-    <tr>
-      <td><audio controls=""><source src="assets/demos/Arousal/REMI(two)/negative_HA_2.wav" type="audio/mpeg" /></audio></td>
-      <td><audio controls=""><source src="assets/demos/Arousal/REMI(two)/negative_LA_2.wav" type="audio/mpeg" /></audio></td>
-    </tr>
-    <tr>
-      <th rowspan="3">Functional(two) - Ours</th>
-      <td><audio controls=""><source src="assets/demos/Arousal/functional(two)/negative_HA_0.wav" type="audio/mpeg" /></audio></td>
-      <td><audio controls=""><source src="assets/demos/Arousal/functional(two)/negative_LA_0.wav" type="audio/mpeg" /></audio></td>
-    </tr>
-    <tr>
-      <td><audio controls=""><source src="assets/demos/Arousal/functional(two)/negative_HA_1.wav" type="audio/mpeg" /></audio></td>
-      <td><audio controls=""><source src="assets/demos/Arousal/functional(two)/negative_LA_1.wav" type="audio/mpeg" /></audio></td>
-    </tr>
-    <tr>
-      <td><audio controls=""><source src="assets/demos/Arousal/functional(two)/negative_HA_2.wav" type="audio/mpeg" /></audio></td>
-      <td><audio controls=""><source src="assets/demos/Arousal/functional(two)/negative_LA_2.wav" type="audio/mpeg" /></audio></td>
-    </tr>
-  </tbody>
 </table>
 
 [jekyll-organization]: https://github.com/jekyll
