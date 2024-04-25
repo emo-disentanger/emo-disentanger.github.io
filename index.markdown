@@ -60,9 +60,9 @@ A selection of generation samples are shown below. Models are denoted as **<repr
   <tfoot>
     <tr>
       <td>Functional(two) - Ours</td>
-      <td><audio controls=""><source src="assets/demos/4Q/Functional(two)/Q1_0.wav" type="audio/mpeg" /></audio></td>
-      <td><audio controls=""><source src="assets/demos/4Q/Functional(two)/Q1_1.wav" type="audio/mpeg" /></audio></td>
-      <td><audio controls=""><source src="assets/demos/4Q/Functional(two)/Q1_2.wav" type="audio/mpeg" /></audio></td>
+      <td><audio controls=""><source src="assets/demos/4Q/functional(two)/Q1_0.wav" type="audio/mpeg" /></audio></td>
+      <td><audio controls=""><source src="assets/demos/4Q/functional(two)/Q1_1.wav" type="audio/mpeg" /></audio></td>
+      <td><audio controls=""><source src="assets/demos/4Q/functional(two)/Q1_2.wav" type="audio/mpeg" /></audio></td>
     </tr>
   </tfoot>
 </table>
@@ -87,9 +87,9 @@ A selection of generation samples are shown below. Models are denoted as **<repr
   <tfoot>
     <tr>
       <td>Functional(two) - Ours</td>
-      <td><audio controls=""><source src="assets/demos/4Q/Functional(two)/Q2_0.wav" type="audio/mpeg" /></audio></td>
-      <td><audio controls=""><source src="assets/demos/4Q/Functional(two)/Q2_1.wav" type="audio/mpeg" /></audio></td>
-      <td><audio controls=""><source src="assets/demos/4Q/Functional(two)/Q2_2.wav" type="audio/mpeg" /></audio></td>
+      <td><audio controls=""><source src="assets/demos/4Q/functional(two)/Q2_0.wav" type="audio/mpeg" /></audio></td>
+      <td><audio controls=""><source src="assets/demos/4Q/functional(two)/Q2_1.wav" type="audio/mpeg" /></audio></td>
+      <td><audio controls=""><source src="assets/demos/4Q/functional(two)/Q2_2.wav" type="audio/mpeg" /></audio></td>
     </tr>
   </tfoot>
 </table>
@@ -114,9 +114,9 @@ A selection of generation samples are shown below. Models are denoted as **<repr
   <tfoot>
     <tr>
       <td>Functional(two) - Ours</td>
-      <td><audio controls=""><source src="assets/demos/4Q/Functional(two)/Q3_0.wav" type="audio/mpeg" /></audio></td>
-      <td><audio controls=""><source src="assets/demos/4Q/Functional(two)/Q3_1.wav" type="audio/mpeg" /></audio></td>
-      <td><audio controls=""><source src="assets/demos/4Q/Functional(two)/Q3_2.wav" type="audio/mpeg" /></audio></td>
+      <td><audio controls=""><source src="assets/demos/4Q/functional(two)/Q3_0.wav" type="audio/mpeg" /></audio></td>
+      <td><audio controls=""><source src="assets/demos/4Q/functional(two)/Q3_1.wav" type="audio/mpeg" /></audio></td>
+      <td><audio controls=""><source src="assets/demos/4Q/functional(two)/Q3_2.wav" type="audio/mpeg" /></audio></td>
     </tr>
   </tfoot>
 </table>
@@ -230,7 +230,5 @@ A selection of generation samples are shown below. Models are denoted as **<repr
     </tr>
   </tbody>
 </table>
-
-
 
 [jekyll-organization]: https://github.com/jekyll
