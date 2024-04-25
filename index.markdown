@@ -44,7 +44,7 @@ We show some generation samples below from three models:
 
 ## Same Lead Sheet, Different Arousal Performance
 
-This section shows generated piano performance of different arousal levels under the same lead sheet, a new emotion-based music generation application with our two-stage framework. 
+This section shows generated piano performances of different arousal levels (**Low Arousal**, **High Arousal**) under the same lead sheet (**Lead Sheet**), which is a new emotion-based music generation application with our two-stage framework.
 
 ### Positive pieces
 
@@ -143,7 +143,7 @@ This section shows generated piano performance of different arousal levels under
 
 ## 4Q generations
 
-This section shows generated examples for each Quadrant. REMI(one) was found to have poor performance in valence modeling based on our user study.
+This section shows generated examples for each Quadrant. It was found that REMI representation has poor performance in valence modeling based on our user study.
 
 ### Q1 (High Valence, High Arousal)
 
