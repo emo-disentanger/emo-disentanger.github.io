@@ -44,7 +44,7 @@ We show some generation samples below from three models:
 
 ## Same Lead Sheet, Different Arousal Performance
 
-This section shows generated piano performances of different arousal levels (**Low Arousal**, **High Arousal**) under the same lead sheet (**Lead Sheet**), which is a new emotion-based music generation application with our two-stage framework.
+This section shows generated piano performances of different arousal levels (**Low Arousal**, **High Arousal**) under the same lead sheet (**Lead Sheet**), which is a new emotion-based music generation application with our two-stage framework, either with REMI or functional representation.
 
 ### Positive pieces
 
@@ -76,6 +76,11 @@ This section shows generated piano performances of different arousal levels (**L
     </tr>
     <tr>
       <th rowspan="3">Functional(two)</th>
+      <td><audio controls=""><source src="assets/demos/Arousal/functional(two)/positive_2.wav" type="audio/mpeg" /></audio></td>
+      <td><audio controls=""><source src="assets/demos/Arousal/functional(two)/positive_HA_2.wav" type="audio/mpeg" /></audio></td>
+      <td><audio controls=""><source src="assets/demos/Arousal/functional(two)/positive_LA_2.wav" type="audio/mpeg" /></audio></td>
+    </tr>
+    <tr>
       <td><audio controls=""><source src="assets/demos/Arousal/functional(two)/positive_0.wav" type="audio/mpeg" /></audio></td>
       <td><audio controls=""><source src="assets/demos/Arousal/functional(two)/positive_HA_0.wav" type="audio/mpeg" /></audio></td>
       <td><audio controls=""><source src="assets/demos/Arousal/functional(two)/positive_LA_0.wav" type="audio/mpeg" /></audio></td>
@@ -84,11 +89,6 @@ This section shows generated piano performances of different arousal levels (**L
       <td><audio controls=""><source src="assets/demos/Arousal/functional(two)/positive_1.wav" type="audio/mpeg" /></audio></td>
       <td><audio controls=""><source src="assets/demos/Arousal/functional(two)/positive_HA_1.wav" type="audio/mpeg" /></audio></td>
       <td><audio controls=""><source src="assets/demos/Arousal/functional(two)/positive_LA_1.wav" type="audio/mpeg" /></audio></td>
-    </tr>
-    <tr>
-      <td><audio controls=""><source src="assets/demos/Arousal/functional(two)/positive_2.wav" type="audio/mpeg" /></audio></td>
-      <td><audio controls=""><source src="assets/demos/Arousal/functional(two)/positive_HA_2.wav" type="audio/mpeg" /></audio></td>
-      <td><audio controls=""><source src="assets/demos/Arousal/functional(two)/positive_LA_2.wav" type="audio/mpeg" /></audio></td>
     </tr>
   </tbody>
 </table>

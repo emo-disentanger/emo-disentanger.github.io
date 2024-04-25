@@ -343,7 +343,7 @@ table.audio-table audio {
         overflow-x: visible; }
   table.audio-table .metric-col {
         width: 7em; } }
-@media screen and (max-width: 106rem) {
+@media screen and (max-width: 180rem) {
   table.audio-table {
         margin-left: auto;
         margin-right: auto;
