@@ -162,7 +162,7 @@ A selection of generation samples are shown below. Models are denoted as **<repr
   </thead>
   <tbody>
     <tr>
-      <th colspan="3">REMI(two) - Variant</th>
+      <th rowspan="3">REMI(two) - Variant</th>
       <td><audio controls=""><source src="assets/demos/Arousal/REMI(two)/positive_HA_0.wav" type="audio/mpeg" /></audio></td>
       <td><audio controls=""><source src="assets/demos/Arousal/REMI(two)/positive_LA_0.wav" type="audio/mpeg" /></audio></td>
     </tr>
@@ -175,7 +175,7 @@ A selection of generation samples are shown below. Models are denoted as **<repr
       <td><audio controls=""><source src="assets/demos/Arousal/REMI(two)/positive_LA_2.wav" type="audio/mpeg" /></audio></td>
     </tr>
     <tr>
-      <th colspan="3">Functional(two) - Ours</th>
+      <th rowspan="3">Functional(two) - Ours</th>
       <td><audio controls=""><source src="assets/demos/Arousal/functional(two)/positive_HA_0.wav" type="audio/mpeg" /></audio></td>
       <td><audio controls=""><source src="assets/demos/Arousal/functional(two)/positive_LA_0.wav" type="audio/mpeg" /></audio></td>
     </tr>
@@ -205,7 +205,7 @@ A selection of generation samples are shown below. Models are denoted as **<repr
   </thead>
   <tbody>
     <tr>
-      <th colspan="3">REMI(two) - Variant</th>
+      <th rowspan="3">REMI(two) - Variant</th>
       <td><audio controls=""><source src="assets/demos/Arousal/REMI(two)/negative_HA_0.wav" type="audio/mpeg" /></audio></td>
       <td><audio controls=""><source src="assets/demos/Arousal/REMI(two)/negative_LA_0.wav" type="audio/mpeg" /></audio></td>
     </tr>
@@ -218,7 +218,7 @@ A selection of generation samples are shown below. Models are denoted as **<repr
       <td><audio controls=""><source src="assets/demos/Arousal/REMI(two)/negative_LA_2.wav" type="audio/mpeg" /></audio></td>
     </tr>
     <tr>
-      <th colspan="3">Functional(two) - Ours</th>
+      <th rowspan="3">Functional(two) - Ours</th>
       <td><audio controls=""><source src="assets/demos/Arousal/functional(two)/negative_HA_0.wav" type="audio/mpeg" /></audio></td>
       <td><audio controls=""><source src="assets/demos/Arousal/functional(two)/negative_LA_0.wav" type="audio/mpeg" /></audio></td>
     </tr>
