@@ -53,13 +53,13 @@ This section shows generated piano performance of different arousal levels under
     <tr class="header">
     <th></th>
     <th>Lead Sheet</th>
-    <th>High Arousal Performance</th>
-    <th>Low Arousal Performance</th>
+    <th>High Arousal</th>
+    <th>Low Arousal</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th rowspan="3">REMI(two) - Variant</th>
+      <th rowspan="3">REMI(two)</th>
       <td><audio controls=""><source src="assets/demos/Arousal/REMI(two)/positive_0.wav" type="audio/mpeg" /></audio></td>
       <td><audio controls=""><source src="assets/demos/Arousal/REMI(two)/positive_HA_0.wav" type="audio/mpeg" /></audio></td>
       <td><audio controls=""><source src="assets/demos/Arousal/REMI(two)/positive_LA_0.wav" type="audio/mpeg" /></audio></td>
@@ -75,7 +75,7 @@ This section shows generated piano performance of different arousal levels under
       <td><audio controls=""><source src="assets/demos/Arousal/REMI(two)/positive_LA_2.wav" type="audio/mpeg" /></audio></td>
     </tr>
     <tr>
-      <th rowspan="3">Functional(two) - Ours</th>
+      <th rowspan="3">Functional(two)</th>
       <td><audio controls=""><source src="assets/demos/Arousal/functional(two)/positive_0.wav" type="audio/mpeg" /></audio></td>
       <td><audio controls=""><source src="assets/demos/Arousal/functional(two)/positive_HA_0.wav" type="audio/mpeg" /></audio></td>
       <td><audio controls=""><source src="assets/demos/Arousal/functional(two)/positive_LA_0.wav" type="audio/mpeg" /></audio></td>
@@ -101,13 +101,13 @@ This section shows generated piano performance of different arousal levels under
     <tr class="header">
     <th></th>
     <th>Lead Sheet</th>
-    <th>High Arousal Performance</th>
-    <th>Low Arousal Performance</th>
+    <th>High Arousal</th>
+    <th>Low Arousal</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th rowspan="3">REMI(two) - Variant</th>
+      <th rowspan="3">REMI(two)</th>
       <td><audio controls=""><source src="assets/demos/Arousal/REMI(two)/negative_0.wav" type="audio/mpeg" /></audio></td>
       <td><audio controls=""><source src="assets/demos/Arousal/REMI(two)/negative_HA_0.wav" type="audio/mpeg" /></audio></td>
       <td><audio controls=""><source src="assets/demos/Arousal/REMI(two)/negative_LA_0.wav" type="audio/mpeg" /></audio></td>
@@ -123,7 +123,7 @@ This section shows generated piano performance of different arousal levels under
       <td><audio controls=""><source src="assets/demos/Arousal/REMI(two)/negative_LA_2.wav" type="audio/mpeg" /></audio></td>
     </tr>
     <tr>
-      <th rowspan="3">Functional(two) - Ours</th>
+      <th rowspan="3">Functional(two)</th>
       <td><audio controls=""><source src="assets/demos/Arousal/functional(two)/negative_0.wav" type="audio/mpeg" /></audio></td>
       <td><audio controls=""><source src="assets/demos/Arousal/functional(two)/negative_HA_0.wav" type="audio/mpeg" /></audio></td>
       <td><audio controls=""><source src="assets/demos/Arousal/functional(two)/negative_LA_0.wav" type="audio/mpeg" /></audio></td>
@@ -150,13 +150,13 @@ This section shows generated examples for each Quadrant. REMI(one) was found to 
 <table class="audio-table">
   <tbody>
     <tr>
-      <td>REMI(one) - Baseline</td>
+      <td>REMI(one)</td>
       <td><audio controls=""><source src="assets/demos/4Q/REMI(one)/Q1_0.wav" type="audio/mpeg" /></audio></td>
       <td><audio controls=""><source src="assets/demos/4Q/REMI(one)/Q1_1.wav" type="audio/mpeg" /></audio></td>
       <td><audio controls=""><source src="assets/demos/4Q/REMI(one)/Q1_2.wav" type="audio/mpeg" /></audio></td>
     </tr>
     <tr>
-      <td>REMI(two) - Ours</td>
+      <td>REMI(two)</td>
       <td><audio controls=""><source src="assets/demos/4Q/REMI(two)/Q1_0.wav" type="audio/mpeg" /></audio></td>
       <td><audio controls=""><source src="assets/demos/4Q/REMI(two)/Q1_1.wav" type="audio/mpeg" /></audio></td>
       <td><audio controls=""><source src="assets/demos/4Q/REMI(two)/Q1_2.wav" type="audio/mpeg" /></audio></td>
@@ -164,7 +164,7 @@ This section shows generated examples for each Quadrant. REMI(one) was found to 
   </tbody>
   <tfoot>
     <tr>
-      <td>Functional(two) - Ours (main proposal)</td>
+      <td>Functional(two)</td>
       <td><audio controls=""><source src="assets/demos/4Q/functional(two)/Q1_0.wav" type="audio/mpeg" /></audio></td>
       <td><audio controls=""><source src="assets/demos/4Q/functional(two)/Q1_1.wav" type="audio/mpeg" /></audio></td>
       <td><audio controls=""><source src="assets/demos/4Q/functional(two)/Q1_2.wav" type="audio/mpeg" /></audio></td>
@@ -177,13 +177,13 @@ This section shows generated examples for each Quadrant. REMI(one) was found to 
 <table class="audio-table">
   <tbody>
     <tr>
-      <td>REMI(one) - Baseline</td>
+      <td>REMI(one)</td>
       <td><audio controls=""><source src="assets/demos/4Q/REMI(one)/Q2_0.wav" type="audio/mpeg" /></audio></td>
       <td><audio controls=""><source src="assets/demos/4Q/REMI(one)/Q2_1.wav" type="audio/mpeg" /></audio></td>
       <td><audio controls=""><source src="assets/demos/4Q/REMI(one)/Q2_2.wav" type="audio/mpeg" /></audio></td>
     </tr>
     <tr>
-      <td>REMI(two) - Variant</td>
+      <td>REMI(two)</td>
       <td><audio controls=""><source src="assets/demos/4Q/REMI(two)/Q2_0.wav" type="audio/mpeg" /></audio></td>
       <td><audio controls=""><source src="assets/demos/4Q/REMI(two)/Q2_1.wav" type="audio/mpeg" /></audio></td>
       <td><audio controls=""><source src="assets/demos/4Q/REMI(two)/Q2_2.wav" type="audio/mpeg" /></audio></td>
@@ -191,7 +191,7 @@ This section shows generated examples for each Quadrant. REMI(one) was found to 
   </tbody>
   <tfoot>
     <tr>
-      <td>Functional(two) - Ours</td>
+      <td>Functional(two)</td>
       <td><audio controls=""><source src="assets/demos/4Q/functional(two)/Q2_0.wav" type="audio/mpeg" /></audio></td>
       <td><audio controls=""><source src="assets/demos/4Q/functional(two)/Q2_1.wav" type="audio/mpeg" /></audio></td>
       <td><audio controls=""><source src="assets/demos/4Q/functional(two)/Q2_2.wav" type="audio/mpeg" /></audio></td>
@@ -204,13 +204,13 @@ This section shows generated examples for each Quadrant. REMI(one) was found to 
 <table class="audio-table">
   <tbody>
     <tr>
-      <td>REMI(one) - Baseline</td>
+      <td>REMI(one)</td>
       <td><audio controls=""><source src="assets/demos/4Q/REMI(one)/Q3_0.wav" type="audio/mpeg" /></audio></td>
       <td><audio controls=""><source src="assets/demos/4Q/REMI(one)/Q3_1.wav" type="audio/mpeg" /></audio></td>
       <td><audio controls=""><source src="assets/demos/4Q/REMI(one)/Q3_2.wav" type="audio/mpeg" /></audio></td>
     </tr>
     <tr>
-      <td>REMI(two) - Variant</td>
+      <td>REMI(two)</td>
       <td><audio controls=""><source src="assets/demos/4Q/REMI(two)/Q3_0.wav" type="audio/mpeg" /></audio></td>
       <td><audio controls=""><source src="assets/demos/4Q/REMI(two)/Q3_1.wav" type="audio/mpeg" /></audio></td>
       <td><audio controls=""><source src="assets/demos/4Q/REMI(two)/Q3_2.wav" type="audio/mpeg" /></audio></td>
@@ -218,7 +218,7 @@ This section shows generated examples for each Quadrant. REMI(one) was found to 
   </tbody>
   <tfoot>
     <tr>
-      <td>Functional(two) - Ours</td>
+      <td>Functional(two)</td>
       <td><audio controls=""><source src="assets/demos/4Q/functional(two)/Q3_0.wav" type="audio/mpeg" /></audio></td>
       <td><audio controls=""><source src="assets/demos/4Q/functional(two)/Q3_1.wav" type="audio/mpeg" /></audio></td>
       <td><audio controls=""><source src="assets/demos/4Q/functional(two)/Q3_2.wav" type="audio/mpeg" /></audio></td>
@@ -231,13 +231,13 @@ This section shows generated examples for each Quadrant. REMI(one) was found to 
 <table class="audio-table">
   <tbody>
     <tr>
-      <td>REMI(one) - Baseline</td>
+      <td>REMI(one)</td>
       <td><audio controls=""><source src="assets/demos/4Q/REMI(one)/Q4_0.wav" type="audio/mpeg" /></audio></td>
       <td><audio controls=""><source src="assets/demos/4Q/REMI(one)/Q4_1.wav" type="audio/mpeg" /></audio></td>
       <td><audio controls=""><source src="assets/demos/4Q/REMI(one)/Q4_2.wav" type="audio/mpeg" /></audio></td>
     </tr>
     <tr>
-      <td>REMI(two) - Variant</td>
+      <td>REMI(two)</td>
       <td><audio controls=""><source src="assets/demos/4Q/REMI(two)/Q4_0.wav" type="audio/mpeg" /></audio></td>
       <td><audio controls=""><source src="assets/demos/4Q/REMI(two)/Q4_1.wav" type="audio/mpeg" /></audio></td>
       <td><audio controls=""><source src="assets/demos/4Q/REMI(two)/Q4_2.wav" type="audio/mpeg" /></audio></td>
@@ -245,7 +245,7 @@ This section shows generated examples for each Quadrant. REMI(one) was found to 
   </tbody>
   <tfoot>
     <tr>
-      <td>Functional(two) - Ours</td>
+      <td>Functional(two)</td>
       <td><audio controls=""><source src="assets/demos/4Q/functional(two)/Q4_0.wav" type="audio/mpeg" /></audio></td>
       <td><audio controls=""><source src="assets/demos/4Q/functional(two)/Q4_1.wav" type="audio/mpeg" /></audio></td>
       <td><audio controls=""><source src="assets/demos/4Q/functional(two)/Q4_2.wav" type="audio/mpeg" /></audio></td>
