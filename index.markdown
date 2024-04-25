@@ -34,32 +34,42 @@ This new method takes **musical keys** into account, recognizing their significa
 
 Experiments demonstrate the effectiveness of our framework and representation on emotion modeling. Additionally, our method enables new capabilities to control the arousal levels of generation under the same lead sheet, leading to more flexiable emotion controls.
 
+<div align="center">
+  <img src="figures/emogen-va.png" width=400 alt="">
+  <figcaption><strong>Fig.5</strong> The mean opinion score performance on the valence-oriented and arousal-oriented listening tests. For (a-1) and (b-1), the higher score the better performance; for (a-2) and (b-2), the lower score the better performance.</figcaption>
+</div>
+
+<div align="center">
+  <img src="figures/confusion_matrix.png" width=400 alt="">
+  <figcaption><strong>Fig.6</strong> The confusion matrices on the 4Q listening tests.</figcaption>
+</div>
+
 # Generation Samples
 
 We show some generation samples below from three models:
 
-* **REMI(one)**: one-stage generation model with REMI representation, baseline
-* **REMI(two)**: two-stage generation model with REMI representation, one variant of our proposed framework
-* **Functional(two)**: two-stage generation model with functional representation, our main proposal
+* **REMI (one)**: one-stage generation model with REMI representation, baseline
+* **REMI (two)**: two-stage generation model with REMI representation, one variant of our proposed framework
+* **Functional (two)**: two-stage generation model with functional representation, our main proposal
 
 ## Same Lead Sheet, Different Arousal Performance
 
-This section shows generated piano performances of different arousal levels (**Low Arousal**, **High Arousal**) under the same lead sheet (**Lead Sheet**), which is a new emotion-based music generation application with our two-stage framework, either with REMI or functional representation.
+This section presents piano performances with different arousal levels (**Low Arousal**, **High Arousal**) that were generated in the second stage of our framework, based on the same lead sheet **(**Lead Sheet**) produced in the first stage. This is a new emotion-based music generation application with our two-stage framework, either with REMI or functional representation.
 
-### Positive pieces
+### Examples with positive valence
 
 <table class="audio-table">
   <thead>
     <tr class="header">
     <th></th>
-    <th>Lead Sheet</th>
+    <th>Given Lead Sheet</th>
     <th>High Arousal</th>
     <th>Low Arousal</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th rowspan="3">REMI(two)</th>
+      <th rowspan="3">REMI (two)</th>
       <td><audio controls=""><source src="assets/demos/Arousal/REMI(two)/positive_0.wav" type="audio/mpeg" /></audio></td>
       <td><audio controls=""><source src="assets/demos/Arousal/REMI(two)/positive_HA_0.wav" type="audio/mpeg" /></audio></td>
       <td><audio controls=""><source src="assets/demos/Arousal/REMI(two)/positive_LA_0.wav" type="audio/mpeg" /></audio></td>
@@ -75,7 +85,7 @@ This section shows generated piano performances of different arousal levels (**L
       <td><audio controls=""><source src="assets/demos/Arousal/REMI(two)/positive_LA_2.wav" type="audio/mpeg" /></audio></td>
     </tr>
     <tr>
-      <th rowspan="3">Functional(two)</th>
+      <th rowspan="3">Functional (two)</th>
       <td><audio controls=""><source src="assets/demos/Arousal/functional(two)/positive_2.wav" type="audio/mpeg" /></audio></td>
       <td><audio controls=""><source src="assets/demos/Arousal/functional(two)/positive_HA_2.wav" type="audio/mpeg" /></audio></td>
       <td><audio controls=""><source src="assets/demos/Arousal/functional(two)/positive_LA_2.wav" type="audio/mpeg" /></audio></td>
@@ -94,20 +104,20 @@ This section shows generated piano performances of different arousal levels (**L
 </table>
 
 
-### Negative pieces
+### Examples with negative valence
 
 <table class="audio-table">
   <thead>
     <tr class="header">
     <th></th>
-    <th>Lead Sheet</th>
+    <th>Given Lead Sheet</th>
     <th>High Arousal</th>
     <th>Low Arousal</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th rowspan="3">REMI(two)</th>
+      <th rowspan="3">REMI (two)</th>
       <td><audio controls=""><source src="assets/demos/Arousal/REMI(two)/negative_0.wav" type="audio/mpeg" /></audio></td>
       <td><audio controls=""><source src="assets/demos/Arousal/REMI(two)/negative_HA_0.wav" type="audio/mpeg" /></audio></td>
       <td><audio controls=""><source src="assets/demos/Arousal/REMI(two)/negative_LA_0.wav" type="audio/mpeg" /></audio></td>
@@ -123,7 +133,7 @@ This section shows generated piano performances of different arousal levels (**L
       <td><audio controls=""><source src="assets/demos/Arousal/REMI(two)/negative_LA_2.wav" type="audio/mpeg" /></audio></td>
     </tr>
     <tr>
-      <th rowspan="3">Functional(two)</th>
+      <th rowspan="3">Functional (two)</th>
       <td><audio controls=""><source src="assets/demos/Arousal/functional(two)/negative_0.wav" type="audio/mpeg" /></audio></td>
       <td><audio controls=""><source src="assets/demos/Arousal/functional(two)/negative_HA_0.wav" type="audio/mpeg" /></audio></td>
       <td><audio controls=""><source src="assets/demos/Arousal/functional(two)/negative_LA_0.wav" type="audio/mpeg" /></audio></td>
@@ -150,13 +160,13 @@ This section shows generated examples for each Quadrant. It was found that REMI 
 <table class="audio-table">
   <tbody>
     <tr>
-      <td>REMI(one)</td>
+      <td>REMI (one)</td>
       <td><audio controls=""><source src="assets/demos/4Q/REMI(one)/Q1_0_new.wav" type="audio/mpeg" /></audio></td>
       <td><audio controls=""><source src="assets/demos/4Q/REMI(one)/Q1_1_new.wav" type="audio/mpeg" /></audio></td>
       <td><audio controls=""><source src="assets/demos/4Q/REMI(one)/Q1_2_new.wav" type="audio/mpeg" /></audio></td>
     </tr>
     <tr>
-      <td>REMI(two)</td>
+      <td>REMI (two)</td>
       <td><audio controls=""><source src="assets/demos/4Q/REMI(two)/Q1_0.wav" type="audio/mpeg" /></audio></td>
       <td><audio controls=""><source src="assets/demos/4Q/REMI(two)/Q1_1.wav" type="audio/mpeg" /></audio></td>
       <td><audio controls=""><source src="assets/demos/4Q/REMI(two)/Q1_2.wav" type="audio/mpeg" /></audio></td>
@@ -164,7 +174,7 @@ This section shows generated examples for each Quadrant. It was found that REMI 
   </tbody>
   <tfoot>
     <tr>
-      <td>Functional(two)</td>
+      <td>Functional (two)</td>
       <td><audio controls=""><source src="assets/demos/4Q/functional(two)/Q1_0.wav" type="audio/mpeg" /></audio></td>
       <td><audio controls=""><source src="assets/demos/4Q/functional(two)/Q1_1.wav" type="audio/mpeg" /></audio></td>
       <td><audio controls=""><source src="assets/demos/4Q/functional(two)/Q1_2.wav" type="audio/mpeg" /></audio></td>
@@ -177,13 +187,13 @@ This section shows generated examples for each Quadrant. It was found that REMI 
 <table class="audio-table">
   <tbody>
     <tr>
-      <td>REMI(one)</td>
+      <td>REMI (one)</td>
       <td><audio controls=""><source src="assets/demos/4Q/REMI(one)/Q2_0_new.wav" type="audio/mpeg" /></audio></td>
       <td><audio controls=""><source src="assets/demos/4Q/REMI(one)/Q2_1_new.wav" type="audio/mpeg" /></audio></td>
       <td><audio controls=""><source src="assets/demos/4Q/REMI(one)/Q2_2_new.wav" type="audio/mpeg" /></audio></td>
     </tr>
     <tr>
-      <td>REMI(two)</td>
+      <td>REMI (two)</td>
       <td><audio controls=""><source src="assets/demos/4Q/REMI(two)/Q2_0.wav" type="audio/mpeg" /></audio></td>
       <td><audio controls=""><source src="assets/demos/4Q/REMI(two)/Q2_1.wav" type="audio/mpeg" /></audio></td>
       <td><audio controls=""><source src="assets/demos/4Q/REMI(two)/Q2_2.wav" type="audio/mpeg" /></audio></td>
@@ -191,7 +201,7 @@ This section shows generated examples for each Quadrant. It was found that REMI 
   </tbody>
   <tfoot>
     <tr>
-      <td>Functional(two)</td>
+      <td>Functional (two)</td>
       <td><audio controls=""><source src="assets/demos/4Q/functional(two)/Q2_0.wav" type="audio/mpeg" /></audio></td>
       <td><audio controls=""><source src="assets/demos/4Q/functional(two)/Q2_1.wav" type="audio/mpeg" /></audio></td>
       <td><audio controls=""><source src="assets/demos/4Q/functional(two)/Q2_2.wav" type="audio/mpeg" /></audio></td>
@@ -204,13 +214,13 @@ This section shows generated examples for each Quadrant. It was found that REMI 
 <table class="audio-table">
   <tbody>
     <tr>
-      <td>REMI(one)</td>
+      <td>REMI (one)</td>
       <td><audio controls=""><source src="assets/demos/4Q/REMI(one)/Q3_0_new.wav" type="audio/mpeg" /></audio></td>
       <td><audio controls=""><source src="assets/demos/4Q/REMI(one)/Q3_1_new.wav" type="audio/mpeg" /></audio></td>
       <td><audio controls=""><source src="assets/demos/4Q/REMI(one)/Q3_2_new.wav" type="audio/mpeg" /></audio></td>
     </tr>
     <tr>
-      <td>REMI(two)</td>
+      <td>REMI (two)</td>
       <td><audio controls=""><source src="assets/demos/4Q/REMI(two)/Q3_0.wav" type="audio/mpeg" /></audio></td>
       <td><audio controls=""><source src="assets/demos/4Q/REMI(two)/Q3_1.wav" type="audio/mpeg" /></audio></td>
       <td><audio controls=""><source src="assets/demos/4Q/REMI(two)/Q3_2.wav" type="audio/mpeg" /></audio></td>
@@ -218,7 +228,7 @@ This section shows generated examples for each Quadrant. It was found that REMI 
   </tbody>
   <tfoot>
     <tr>
-      <td>Functional(two)</td>
+      <td>Functional (two)</td>
       <td><audio controls=""><source src="assets/demos/4Q/functional(two)/Q3_0.wav" type="audio/mpeg" /></audio></td>
       <td><audio controls=""><source src="assets/demos/4Q/functional(two)/Q3_1.wav" type="audio/mpeg" /></audio></td>
       <td><audio controls=""><source src="assets/demos/4Q/functional(two)/Q3_2.wav" type="audio/mpeg" /></audio></td>
@@ -231,13 +241,13 @@ This section shows generated examples for each Quadrant. It was found that REMI 
 <table class="audio-table">
   <tbody>
     <tr>
-      <td>REMI(one)</td>
+      <td>REMI (one)</td>
       <td><audio controls=""><source src="assets/demos/4Q/REMI(one)/Q4_0_new.wav" type="audio/mpeg" /></audio></td>
       <td><audio controls=""><source src="assets/demos/4Q/REMI(one)/Q4_1_new.wav" type="audio/mpeg" /></audio></td>
       <td><audio controls=""><source src="assets/demos/4Q/REMI(one)/Q4_2_new.wav" type="audio/mpeg" /></audio></td>
     </tr>
     <tr>
-      <td>REMI(two)</td>
+      <td>REMI (two)</td>
       <td><audio controls=""><source src="assets/demos/4Q/REMI(two)/Q4_0.wav" type="audio/mpeg" /></audio></td>
       <td><audio controls=""><source src="assets/demos/4Q/REMI(two)/Q4_1.wav" type="audio/mpeg" /></audio></td>
       <td><audio controls=""><source src="assets/demos/4Q/REMI(two)/Q4_2.wav" type="audio/mpeg" /></audio></td>
@@ -245,7 +255,7 @@ This section shows generated examples for each Quadrant. It was found that REMI 
   </tbody>
   <tfoot>
     <tr>
-      <td>Functional(two)</td>
+      <td>Functional (two)</td>
       <td><audio controls=""><source src="assets/demos/4Q/functional(two)/Q4_0.wav" type="audio/mpeg" /></audio></td>
       <td><audio controls=""><source src="assets/demos/4Q/functional(two)/Q4_1.wav" type="audio/mpeg" /></audio></td>
       <td><audio controls=""><source src="assets/demos/4Q/functional(two)/Q4_2.wav" type="audio/mpeg" /></audio></td>
