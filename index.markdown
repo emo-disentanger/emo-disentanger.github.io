@@ -36,13 +36,14 @@ Experiments demonstrate the effectiveness of our framework and representation on
 
 <div align="center">
   <img src="figures/emogen-va.png" width=400 alt="">
+  <img src="figures/confusion_matrix.png" width=400 alt="">
   <figcaption><strong>Fig.5</strong> The mean opinion score performance on the valence-oriented and arousal-oriented listening tests. For (a-1) and (b-1), the higher score the better performance; for (a-2) and (b-2), the lower score the better performance.</figcaption>
 </div>
 
-<div align="center">
+<!-- <div align="center">
   <img src="figures/confusion_matrix.png" width=400 alt="">
   <figcaption><strong>Fig.6</strong> The confusion matrices on the 4Q listening tests.</figcaption>
-</div>
+</div> -->
 
 # Generation Samples
 
