@@ -150,7 +150,7 @@ A selection of generation samples are shown below. Models are denoted as **<repr
 
 ## Same Lead Sheet, Different Arousal
 
-### Positive lead sheet**
+### Positive lead sheet
 
 <table class="audio-table">
   <thead>
@@ -193,7 +193,7 @@ A selection of generation samples are shown below. Models are denoted as **<repr
 </table>
 
 
-### Negative lead sheet**
+### Negative lead sheet
 
 <table class="audio-table">
   <thead>
