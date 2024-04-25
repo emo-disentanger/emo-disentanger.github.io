@@ -183,13 +183,11 @@ A selection of generation samples are shown below. Models are denoted as **<repr
       <td><audio controls=""><source src="assets/demos/Arousal/functional(two)/positive_HA_1.wav" type="audio/mpeg" /></audio></td>
       <td><audio controls=""><source src="assets/demos/Arousal/functional(two)/positive_LA_1.wav" type="audio/mpeg" /></audio></td>
     </tr>
-  </tbody>
-  <tfoot>
     <tr>
       <td><audio controls=""><source src="assets/demos/Arousal/functional(two)/positive_HA_2.wav" type="audio/mpeg" /></audio></td>
       <td><audio controls=""><source src="assets/demos/Arousal/functional(two)/positive_LA_2.wav" type="audio/mpeg" /></audio></td>
     </tr>
-  </tfoot>
+  </tbody>
 </table>
 
 
