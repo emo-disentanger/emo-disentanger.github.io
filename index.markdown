@@ -32,7 +32,7 @@ This new method takes **musical keys** into account, recognizing their significa
   <figcaption><strong>Fig.4</strong> The conversion between letters and Roman numerals in the cases of C major and c minor scales. Solid arrows denote strict one-to-one conversions, and dotted arrows denote optional one-to-either conversions.</figcaption>
 </div>
 
-Experiments demonstrate the effectiveness of our framework and representation on emotion modeling. Additionally, our method enables new capabilities to control the arousal levels of generation under the same lead sheet, leading to more flexiable emotion controls.
+Experiments demonstrate the effectiveness of our framework and representation on **emotion modeling**. Additionally, our method enables new capabilities to control the arousal levels of generation under the same lead sheet, leading to more flexiable emotion controls.
 
 <div align="center">
   <img src="figures/user_study.png" width=800 alt="">
@@ -49,7 +49,7 @@ We show some generation samples below from three models:
 
 ## Same Lead Sheet, Different Arousal Performance
 
-This section presents piano performances with different arousal levels (**Low Arousal**, **High Arousal**) that were generated in the second stage of our framework, based on the same lead sheet **(**Lead Sheet**) produced in the first stage. This is a new emotion-based music generation application with our two-stage framework, either with REMI or functional representation.
+This section presents piano performances with different arousal levels (**Low Arousal**, **High Arousal**) that were generated in the second stage of our framework, based on the same lead sheet (**Lead Sheet**) produced in the first stage. This is a new emotion-based music generation application with our two-stage framework, either with REMI or functional representation.
 
 ### Examples with positive valence
 
