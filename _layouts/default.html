@@ -14,7 +14,7 @@
 
     <script src="assets/js/jquery.min.js"></script>
     <script>
-      console.log("Hello World!")
+      console.log("Change to pause mode")
     </script>
     <meta charset="UTF-8">
 
@@ -52,6 +52,13 @@
       </footer>
     </main>
   </body>
+  <script>
+    $('audio').on('click', function(){
+      $('audio').not(this).each(function(){
+        this.pause();
+      });
+    });
+  </script>
 </html>
 
 
