@@ -54,10 +54,9 @@
   </body>
   <script>
     $('audio').on('play', function(){
-      // $('audio').not(this).each(function(){
-      //   this.pause();
-      // });
-      console.log('play this audio')
+      $('audio').not(this).each(function(){
+        this.pause();
+      });
     });
   </script>
 </html>
