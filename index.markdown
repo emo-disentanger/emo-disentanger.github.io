@@ -2,6 +2,7 @@
 layout: home
 title: EMO-Disentanger
 description: Emotion-driven Piano Music Generation via Two-stage Disentanglement and Functional Representation
+github_link: https://github.com/Yuer867/EMO-Disentanger
 ---
 
 # Introduction
