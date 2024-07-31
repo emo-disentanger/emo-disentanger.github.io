@@ -259,4 +259,19 @@ This section shows generated examples for each Quadrant. It was found that REMI 
   </tfoot>
 </table>
 
+## Authors and Affiliations
+
+* Jingyue Huang
+PhD student @ UC San Diego 
+jih150@ucsd.edu
+
+* Ke Chen
+PhD student @ UC San Diego
+knutchen@ucsd.edu
+ 
+* Yi-Hsuan Yang  
+Professor @ National Taiwan University / Joint-Appointed Researcher @ Academia Sinica  
+yhyangtw@ntu.edu.tw, affige@gmail.com  
+[website](https://affige.github.io/)   
+
 [jekyll-organization]: https://github.com/jekyll
