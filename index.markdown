@@ -5,6 +5,14 @@ description: Emotion-driven Piano Music Generation via Two-stage Disentanglement
 github_link: https://github.com/Yuer867/EMO-Disentanger
 ---
 
+<div align="center">
+<video controls width="500">
+  <source src="assets/demos/demo_video.mp4" type="video/mp4">
+</video>
+</div>
+
+Thanks [html-midi-player](https://cifkao.github.io/html-midi-player/) for the MIDI visualization.
+
 # Introduction
 
 In this paper, we employ a **two-stage Transformer-based model** on emotion-driven piano performance generation, considering the inadequate emotion modeling through end-to-end paradigms in previous works. The first stage focuses on **valence modeling** via lead sheet (melody + chord) composition , while the second stage addresses **arousal modeling** by introducing performance-level attributes, such as articulation, tempo, and velocity. 
