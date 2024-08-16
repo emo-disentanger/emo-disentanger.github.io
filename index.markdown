@@ -6,7 +6,7 @@ github_link: https://github.com/Yuer867/EMO-Disentanger
 ---
 
 <div align="center">
-<video controls width="500">
+<video controls width="800">
   <source src="assets/demos/demo_video.mp4" type="video/mp4">
 </video>
 </div>
